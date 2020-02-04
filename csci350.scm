@@ -4,3 +4,4 @@
         ((list? L)
          (append (reverse-general (cdr L))
                  (list (reverse-general (car L)))))
+         (else L)))
