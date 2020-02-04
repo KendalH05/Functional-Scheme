@@ -5,3 +5,8 @@
          (append (reverse-general (cdr L))
                  (list (reverse-general (car L)))))
          (else L)))
+
+;Function 2 "sum-up-numbers-simple" sums up the numbers in a list
+(define (sum-up-numbers-simple L)
+  (cond 
+   ((null? L) 0)
